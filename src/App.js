@@ -2,10 +2,10 @@ import Header from "./components/Header";
 import Title from "./components/Title";
 import Writer from "./components/Writer";
 import Footer from "./components/Footer";
-import Writeups from "./components/Writeups";
-import MCNO from "./components/Writeups/MCNO";
-import MCS from "./components/Writeups/MCS";
-import MCH from "./components/Writeups/MCH";
+import Writeups from "./components/Blog";
+import MCNO from "./components/Blog/MCNO";
+import MCS from "./components/Blog/MCS";
+import MCH from "./components/Blog/MCH";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -24,13 +24,10 @@ function App() {
               </span>
             )}
           />
-          <Route path="/Writeups" exact component={Writeups} />
-          <Route
-            path="/Writeups/Microcorruption-New-Orleans"
-            component={MCNO}
-          />
-          <Route path="/Writeups/Microcorruption-Sydney" component={MCS} />
-          <Route path="/Writeups/Microcorruption-Hanoi" component={MCH} />
+          <Route path="/Blog" exact component={Writeups} />
+          <Route path="/Blog/Microcorruption-New-Orleans" component={MCNO} />
+          <Route path="/Blog/Microcorruption-Sydney" component={MCS} />
+          <Route path="/Blog/Microcorruption-Hanoi" component={MCH} />
         </div>
         <Footer />
       </Router>

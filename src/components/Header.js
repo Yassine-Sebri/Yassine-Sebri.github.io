@@ -10,8 +10,8 @@ const Header = () => {
         <Link to="/Projects" className="underline">
           /Projects
         </Link>
-        <Link to="/Writeups" className="underline">
-          /Writeups
+        <Link to="/Blog" className="underline">
+          /Blog
         </Link>
         <a href="mailto:yassine.sebri@enetcom.u-sfax.tn " className="underline">
           /Contact
