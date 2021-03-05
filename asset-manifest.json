@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.8161e0fe.chunk.css",
-    "main.js": "/static/js/main.548ee28d.chunk.js",
-    "main.js.map": "/static/js/main.548ee28d.chunk.js.map",
+    "main.js": "/static/js/main.aebe5486.chunk.js",
+    "main.js.map": "/static/js/main.aebe5486.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.f25c875e.js",
     "runtime-main.js.map": "/static/js/runtime-main.f25c875e.js.map",
     "static/js/2.4855fa49.chunk.js": "/static/js/2.4855fa49.chunk.js",
@@ -19,6 +19,15 @@
     "static/media/NOmain.ae5582a9.png": "/static/media/NOmain.ae5582a9.png",
     "static/media/NOmemory.5e47a375.png": "/static/media/NOmemory.5e47a375.png",
     "static/media/NOsolved.79735ff6.png": "/static/media/NOsolved.79735ff6.png",
+    "static/media/RECFZIP.00b29b14.png": "/static/media/RECFZIP.00b29b14.png",
+    "static/media/RECFbin.033e7dba.png": "/static/media/RECFbin.033e7dba.png",
+    "static/media/RECFbin2.52c34a0f.png": "/static/media/RECFbin2.52c34a0f.png",
+    "static/media/RECFcpio.2a918efd.png": "/static/media/RECFcpio.2a918efd.png",
+    "static/media/RECFdd.7e1e25da.png": "/static/media/RECFdd.7e1e25da.png",
+    "static/media/RECFfs.cd304991.png": "/static/media/RECFfs.cd304991.png",
+    "static/media/RECFlzma.f1cf303c.png": "/static/media/RECFlzma.f1cf303c.png",
+    "static/media/RECFlzma2.8490c22d.png": "/static/media/RECFlzma2.8490c22d.png",
+    "static/media/RECFread.fdecaac1.png": "/static/media/RECFread.fdecaac1.png",
     "static/media/Scheck.e265bc37.png": "/static/media/Scheck.e265bc37.png",
     "static/media/Smain.95a7407e.png": "/static/media/Smain.95a7407e.png",
     "static/media/Ssolved.acc97ee8.png": "/static/media/Ssolved.acc97ee8.png"
@@ -27,6 +36,6 @@
     "static/js/runtime-main.f25c875e.js",
     "static/js/2.4855fa49.chunk.js",
     "static/css/main.8161e0fe.chunk.css",
-    "static/js/main.548ee28d.chunk.js"
+    "static/js/main.aebe5486.chunk.js"
   ]
 }
