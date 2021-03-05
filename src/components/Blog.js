@@ -3,6 +3,15 @@ import { Link } from "react-router-dom";
 const Writeups = () => {
   return (
     <div id="Writeups">
+      2021-03-04 -{" "}
+      <Link
+        to="/Blog/Reverse-Engineering-Camera-Firmware"
+        className="highlight"
+      >
+        Reverse-Engineering A Camera's Firmware
+      </Link>
+      <br />
+      <br />
       2021-03-02 -{" "}
       <Link to="/Blog/Microcorruption-Hanoi" className="highlight">
         Microcorruption: Hanoi

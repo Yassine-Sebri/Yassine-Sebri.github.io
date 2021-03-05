@@ -6,6 +6,7 @@ import Writeups from "./components/Blog";
 import MCNO from "./components/Blog/MCNO";
 import MCS from "./components/Blog/MCS";
 import MCH from "./components/Blog/MCH";
+import RECF from "./components/Blog/RECF";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -28,6 +29,10 @@ function App() {
           <Route path="/Blog/Microcorruption-New-Orleans" component={MCNO} />
           <Route path="/Blog/Microcorruption-Sydney" component={MCS} />
           <Route path="/Blog/Microcorruption-Hanoi" component={MCH} />
+          <Route
+            path="/Blog/Reverse-Engineering-Camera-Firmware"
+            component={RECF}
+          />
         </div>
         <Footer />
       </Router>
