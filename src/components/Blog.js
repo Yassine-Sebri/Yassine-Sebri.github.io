@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Writeups = () => {
   return (
     <div id="Writeups">
-      2021-03-05 -{" "}
+      2021-03-06 -{" "}
       <Link to="/Blog/Writing-A-Custom-Bootloader" className="highlight">
         Writing A Custom Bootloader
       </Link>
