@@ -114,7 +114,7 @@ const RECF = () => {
       <img src={RECFcpio} alt="extract cpio archive" />
       <br />
       <br />
-      You can find what these options di with a simple{" "}
+      You can find what these options do with a simple{" "}
       <span id="keyword">man</span> but I think I should mention that the most
       critical one is <span id="keyword">--no-absolute-filenames</span> because
       without it you might risk overwriting your root directory.

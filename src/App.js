@@ -26,6 +26,7 @@ function App() {
             )}
           />
           <Route path="/Blog" exact component={Writeups} />
+          /*------------------------------posts-----------------------------*/
           <Route path="/Blog/Microcorruption-New-Orleans" component={MCNO} />
           <Route path="/Blog/Microcorruption-Sydney" component={MCS} />
           <Route path="/Blog/Microcorruption-Hanoi" component={MCH} />
