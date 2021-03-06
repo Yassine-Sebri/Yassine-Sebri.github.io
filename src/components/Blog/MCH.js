@@ -1,7 +1,7 @@
-import main from "./img/Hmain.png";
-import login from "./img/Hlogin.png";
-import test from "./img/Htest.png";
-import solved from "./img/Hsolved.png";
+import main from "./img/H/Hmain.png";
+import login from "./img/H/Hlogin.png";
+import test from "./img/H/Htest.png";
+import solved from "./img/H/Hsolved.png";
 
 const MCH = () => {
   return (

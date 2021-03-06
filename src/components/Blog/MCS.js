@@ -1,6 +1,6 @@
-import main from "./img/Smain.png";
-import check from "./img/Scheck.png";
-import solved from "./img/Ssolved.png";
+import main from "./img/S/Smain.png";
+import check from "./img/S/Scheck.png";
+import solved from "./img/S/Ssolved.png";
 
 const MCS = () => {
   return (

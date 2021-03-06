@@ -1,12 +1,12 @@
-import RECFZIP from "./img/RECFZIP.png";
-import RECFread from "./img/RECFread.png";
-import RECFbin from "./img/RECFbin.png";
-import RECFdd from "./img/RECFdd.png";
-import RECFlzma from "./img/RECFlzma.png";
-import RECFbin2 from "./img/RECFbin2.png";
-import RECFlzma2 from "./img/RECFlzma2.png";
-import RECFcpio from "./img/RECFcpio.png";
-import RECFfs from "./img/RECFfs.png";
+import RECFZIP from "./img/RECF/RECFZIP.png";
+import RECFread from "./img/RECF/RECFread.png";
+import RECFbin from "./img/RECF/RECFbin.png";
+import RECFdd from "./img/RECF/RECFdd.png";
+import RECFlzma from "./img/RECF/RECFlzma.png";
+import RECFbin2 from "./img/RECF/RECFbin2.png";
+import RECFlzma2 from "./img/RECF/RECFlzma2.png";
+import RECFcpio from "./img/RECF/RECFcpio.png";
+import RECFfs from "./img/RECF/RECFfs.png";
 
 const RECF = () => {
   return (

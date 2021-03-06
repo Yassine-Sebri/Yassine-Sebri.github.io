@@ -1,8 +1,8 @@
-import main from "./img/NOmain.png";
-import create from "./img/NOcreate.png";
-import check from "./img/NOcheck.png";
-import memory from "./img/NOmemory.png";
-import solved from "./img/NOsolved.png";
+import main from "./img/NO/NOmain.png";
+import create from "./img/NO/NOcreate.png";
+import check from "./img/NO/NOcheck.png";
+import memory from "./img/NO/NOmemory.png";
+import solved from "./img/NO/NOsolved.png";
 
 const MCNO = () => {
   return (
