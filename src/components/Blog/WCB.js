@@ -31,9 +31,15 @@ const WCB = () => {
       <br />
       We're going to write the program in assembly so we need a tool to
       translate our instructions to opcode, and{" "}
-      <a href="https://www.nasm.us/">NASM</a> is perfect for that. We're also
-      using <a href="https://www.qemu.org/">QEMU</a> to emulate the booting
-      process. With that out of the way, let's try creating our bootloader.
+      <a href="https://www.nasm.us/" target="__blank">
+        NASM
+      </a>{" "}
+      is perfect for that. We're also using{" "}
+      <a href="https://www.qemu.org/" target="__blank">
+        QEMU
+      </a>{" "}
+      to emulate the booting process. With that out of the way, let's try
+      creating our bootloader.
       <br />
       <br />
       <img src={vim} alt="Bootloader code" />
@@ -74,7 +80,10 @@ const WCB = () => {
       <br />
       Seems like our binary is working as expected, but It's not doing much.
       Let's try making it print some text. To do that we will use a{" "}
-      <a href="https://en.wikipedia.org/wiki/BIOS_interrupt_call">
+      <a
+        href="https://en.wikipedia.org/wiki/BIOS_interrupt_call"
+        target="__blank"
+      >
         BIOS interrupt call
       </a>{" "}
       as follows.
@@ -92,7 +101,10 @@ const WCB = () => {
       <br />
       Now, let's try something more complicated, like printing some ASCII art on
       boot. To do that we will need to use more{" "}
-      <a href="https://en.wikipedia.org/wiki/INT_10H">INT 10H</a> functions.
+      <a href="https://en.wikipedia.org/wiki/INT_10H" target="__blank">
+        INT 10H
+      </a>{" "}
+      functions.
       <br />
       <br />
       <img src={vim3} alt="final program" />

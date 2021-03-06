@@ -45,7 +45,8 @@ const RECF = () => {
       <img src={RECFread} alt="Binary file" />
       <br />
       <br />
-      This is where <a href="https://github.com/ReFirmLabs/binwalk">
+      This is where{" "}
+      <a href="https://github.com/ReFirmLabs/binwalk" target="__blank">
         binkwalk
       </a>{" "}
       comes in. It's a fast, easy to use tool for analyzing, reverse
