@@ -3,7 +3,16 @@ import { Link } from "react-router-dom";
 const Writeups = () => {
   return (
     <div id="Writeups">
-      2021-03-06 -{" "}
+      2021-03-11 -{" "}
+      <Link
+        to="/Blog/Understanding-Docker-By-Writing-A-Custom-Container"
+        className="highlight"
+      >
+        Understanding Docker By Writing A Custom Container
+      </Link>
+      <br />
+      <br />
+      2021-03-07 -{" "}
       <Link to="/Blog/Writing-A-Custom-Bootloader" className="highlight">
         Writing A Custom Bootloader
       </Link>

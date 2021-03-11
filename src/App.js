@@ -8,6 +8,7 @@ import MCS from "./components/Blog/MCS";
 import MCH from "./components/Blog/MCH";
 import RECF from "./components/Blog/RECF";
 import WCB from "./components/Blog/WCB";
+import UDWCC from "./components/Blog/UDWCC";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function App() {
@@ -36,6 +37,10 @@ function App() {
             component={RECF}
           />
           <Route path="/Blog/Writing-A-Custom-Bootloader" component={WCB} />
+          <Route
+            path="/Blog/Understanding-Docker-By-Writing-A-Custom-Container"
+            component={UDWCC}
+          />
         </div>
         <Footer />
       </Router>

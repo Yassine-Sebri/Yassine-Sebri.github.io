@@ -12,7 +12,7 @@ const WCB = () => {
     <div>
       <br />
       <h1>Writing a Custom Bootloader</h1>
-      2021-03-06
+      2021-03-07
       <br />
       <br />
       So I've been planning on writing my own operating system for a while and I
